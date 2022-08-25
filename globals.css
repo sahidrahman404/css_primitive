@@ -1,0 +1,59 @@
+@import "css-props";
+@import "reset";
+@import "utilities";
+
+/* Global styles */
+body {
+  padding: var(--space-2xs) var(--space-xs);
+  background: var(--color-light);
+  color: var(--color-dark);
+  font-size: var(--step--1);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: var(--step-3);
+  max-width: 22ch;
+}
+
+h2 {
+  font-size: var(--step-2);
+  max-width: 30ch;
+}
+
+h3 {
+  font-size: var(--step-1);
+  max-width: 40ch;
+}
+
+a {
+  color: currentcolor;
+  text-decoration-color: var(--color-primary);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--color-dark);
+  color: var(--color-light);
+}
+
+body::-webkit-scrollbar {
+  width: var(--space-2xs); /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-light); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--color-primary); /* color of the scroll thumb */
+}
