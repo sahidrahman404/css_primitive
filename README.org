@@ -1,7 +1,7 @@
 * Primitive Style for React App Using Styled Components
 ** Ingredients
 1. [[https://every-layout.dev/][~Every Layout~]] for CSS layout primitives
-2. [[https://utopia-text.netlify.app/][~Utopia~]] for fluid typography and spacing
+2. [[https://utopia.fyi/][~Utopia~]] for fluid typography and spacing
 3. [[https://piccalil.li/blog/a-modern-css-reset/][~Andy Bell's CSS Reset~]]
 ** How to use
 *** 1. Install
